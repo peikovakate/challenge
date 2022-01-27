@@ -1,0 +1,65 @@
+div.training {
+  background-color: #365314;
+  color: #a3e635;
+}
+
+div.recovery {
+  background-color: #0c4a6e;
+  color: #38bdf8;
+}
+
+p {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+p.info {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+p.title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.header {
+  min-height: 200px;
+  padding: 20px;
+}
+
+.row {
+  flex-direction: row;
+  align-items: center;
+}
+
+button,
+input[type='submit'],
+input[type='reset'] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.margin-20 {
+  margin: 20px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
